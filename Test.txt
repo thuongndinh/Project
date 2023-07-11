@@ -22,5 +22,7 @@
 2. Lệnh 
 - git remote add <tên project muốn đẩy lên> <link repository vừa tạo ở bước 1>
 -> git remote add git https://github.com/thuongndinh/Project.git
+- git push <tên project muốn đẩy lên>
+-> git push git
 - git push --set-upstream <tên project muốn đẩy lên> master
 -> git push --set-upstream git master
