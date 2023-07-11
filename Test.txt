@@ -1,0 +1,15 @@
+0. Lệnh cấu hình
+- git config --global user.name = "thuongndinh"
+- git config --global user.email = "thuongndinh@gmail.com"
+
+1. Khởi tạo một repository
+- git init
+2. Lệnh kiểm tra trạng thái file trong git
+- git status
+3. Lệnh xác nhận file trong 
+- git add "Text.txt" | file chỉ định
+- git add . | tất cả các file
+- git add * | tất cả các file
+4. Lệnh commit file 
+- git commit -m "description"
+
