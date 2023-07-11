@@ -47,3 +47,12 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 4. Gõ lệnh clone
 -> git clone <url project github>
 -> git clone https://github.com/thuongndinh/Project.git
+
+
+// Khôi phục lại lần commit chỉ định
+1. Gõ lệnh git log để xem các lần commit trước đó
+- git log 
+2. Sao chép id của lần commit cần khôi phục
+3. Gõ lệnh revert
+- git revert <id của lần commit cần khôi phục>
+-> git revert d781a7973c44160a34a39b4f0d895d23209eaaa7
