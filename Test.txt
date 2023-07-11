@@ -1,6 +1,8 @@
 0. Lệnh cấu hình
 - git config --global user.name = "thuongndinh"
 - git config --global user.email = "thuongndinh@gmail.com"
+- git config user.name = "thuongndinh"
+- git config user.email = "thuongndinh@gmail.com"
 
 1. Khởi tạo một repository
 - git init
@@ -12,4 +14,5 @@
 - git add * | tất cả các file
 4. Lệnh commit file 
 - git commit -m "description"
-
+5. Lệnh vừa add và commit file (để đồng bộ file thì phải add trước sau đó mới commit lệnh này gộp của 2 lệnh trên)
+- git commit -a -m "description"
