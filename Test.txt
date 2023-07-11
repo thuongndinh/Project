@@ -16,3 +16,11 @@
 - git commit -m "description"
 5. Lệnh vừa add và commit file (để đồng bộ file thì phải add trước sau đó mới commit lệnh này gộp của 2 lệnh trên)
 - git commit -a -m "description"
+
+// Đẩy (push) project git local lên github -> copy link
+1. Đăng nhập github tạo new repository
+2. Lệnh 
+- git remote add <tên project muốn đẩy lên> <link repository vừa tạo ở bước 1>
+-> git remote add git https://github.com/thuongndinh/Project.git
+- git push --set-upstream <tên project muốn đẩy lên> master
+-> git push --set-upstream git master
