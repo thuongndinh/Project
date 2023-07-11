@@ -1,6 +1,7 @@
 0. Lệnh cấu hình
 - git config --global user.name = "thuongndinh"
 - git config --global user.email = "thuongndinh@gmail.com"
+-> nếu 2 lệnh trên không được hãy thử hai lệnh bên dưới
 - git config user.name = "thuongndinh"
 - git config user.email = "thuongndinh@gmail.com"
 
@@ -19,10 +20,30 @@
 
 // Đẩy (push) project git local lên github -> copy link
 1. Đăng nhập github tạo new repository
-2. Lệnh 
+2. Lệnh đẩy dữ liệu lên github
 - git remote add <tên project muốn đẩy lên> <link repository vừa tạo ở bước 1>
 -> git remote add git https://github.com/thuongndinh/Project.git
 - git push <tên project muốn đẩy lên>
 -> git push git
 - git push --set-upstream <tên project muốn đẩy lên> master
 -> git push --set-upstream git master
+Chú ý: nếu gặp lỗi trong quá trình đẩy lên vd:
+"
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+"
+
+-> thì hãy chạy lệnh (git pull) để kéo dữ liệu về trước sau đó mới push dữ liệu lên lại
+-> git pull
+-> git push
+
+// Clone một project từ github về máy
+1. Mở visual code 
+2. Mở terminal -> Git Bash
+3. Gõ lệnh cd đến thư mục lưu trữ vd: cd Desktop (lưu ngoài desktop)
+4. Gõ lệnh clone
+-> git clone <url project github>
+-> git clone https://github.com/thuongndinh/Project.git
